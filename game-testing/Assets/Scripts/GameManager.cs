@@ -26,21 +26,21 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            foreach (GameObject g in cubes)
-            {
-                Destroy(g.gameObject);
-            }
-        }
+        //if (Input.GetKeyDown(KeyCode.C))
+        //{
+        //    foreach (GameObject g in cubes)
+        //    {
+        //        Destroy(g.gameObject);
+        //    }
+        //}
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            foreach (GameObject g in spheres)
-            {
-                Destroy(g.gameObject);
-            }
-        }
+        //if (Input.GetKeyDown(KeyCode.S))
+        //{
+        //    foreach (GameObject g in spheres)
+        //    {
+        //        Destroy(g.gameObject);
+        //    }
+        //}
     }
 
 }
